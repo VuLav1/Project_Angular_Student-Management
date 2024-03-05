@@ -1,0 +1,251 @@
+
+{
+  "student": [
+    {
+      "studentID": 1,
+      "name": "Trần Thanh Tâm",
+      "birthday": "October 15, 2023",
+      "sdt": "0564789900",
+      "gender": "Nữ",
+      "address": "99 Nguyễn Xí, Quận Bình Thạnh",
+      "class": "C12",
+      "id": "2"
+    },
+    {
+      "studentID": 1,
+      "name": "Lê Anh Quang",
+      "birthday": "October 15, 2023",
+      "sdt": "0376481077",
+      "gender": "Nam",
+      "address": "37/120 Cộng Hoà, Quận Tân Bình",
+      "class": "C12",
+      "id": "3"
+    },
+    {
+      "studentID": 1,
+      "name": "Lê Anh Quân",
+      "birthday": "2000-12-23",
+      "sdt": "0385109080",
+      "gender": "Nam",
+      "address": "99 Lạc Long Quân, Quận 11",
+      "class": "C12",
+      "id": "4"
+    },
+    {
+      "studentID": 5,
+      "name": "Nguyễn Trọng Nhân",
+      "birthday": "October 15, 2015",
+      "gender": "Nam",
+      "sdt": 35.95,
+      "address": "",
+      "class": "C12",
+      "id": "5"
+    },
+    {
+      "studentID": 6,
+      "name": "Nguyễn Trọng Nhân",
+      "birthday": "October 15, 2015",
+      "gender": "Nam",
+      "sdt": 35.95,
+      "address": "",
+      "class": "C12",
+      "id": "6"
+    },
+    {
+      "studentID": 7,
+      "name": "Nguyễn Trọng Nhân",
+      "birthday": "October 15, 2015",
+      "gender": "Nam",
+      "sdt": 35.95,
+      "address": "",
+      "class": "C12",
+      "id": "7"
+    },
+    {
+      "studentID": 8,
+      "name": "Nguyễn Trọng Nhân",
+      "birthday": "October 15, 2015",
+      "gender": "Nam",
+      "sdt": 35.95,
+      "address": "",
+      "class": "C12",
+      "id": "8"
+    },
+    {
+      "studentID": 9,
+      "name": "Nguyễn Trọng Nhân",
+      "birthday": "October 15, 2015",
+      "gender": "Nam",
+      "sdt": 35.95,
+      "address": "",
+      "class": "C12",
+      "id": "9"
+    }
+  ],
+  "User": [
+    {
+      "id": "1",
+      "name": "Phan Anh Tài",
+      "class": "C12",
+      "subject": "Toán",
+      "email": "anhtai253@gmail.com",
+      "password": "123456789",
+      "score": [
+        {
+          "name":"Trần Thanh Tâm",
+          "score": {
+            "kt15": 5,
+            "kttk": 8,
+            "ktgk": 6,
+            "ktck": 8
+          }
+        },
+        {
+          "name":"Trần Thanh Tâm",
+          "score": {
+            "kt15": 5,
+            "kttk": 8,
+            "ktgk": 6,
+            "ktck": 8
+          }
+        },
+        {
+          "name":"Trần Thanh Tâm",
+          "score": {
+            "kt15": 5,
+            "kttk": 8,
+            "ktgk": 6,
+            "ktck": 8
+          }
+        },
+        {
+          "name":"Trần Thanh Tâm",
+          "score": {
+            "kt15": 5,
+            "kttk": 8,
+            "ktgk": 6,
+            "ktck": 8
+          }
+        },
+        {
+          "name":"Trần Thanh Tâm",
+          "score": {
+            "kt15": 5,
+            "kttk": 8,
+            "ktgk": 6,
+            "ktck": 8
+          }
+        },
+        {
+          "name":"Trần Thanh Tâm",
+          "score": {
+            "kt15": 5,
+            "kttk": 8,
+            "ktgk": 6,
+            "ktck": 8
+          }
+        },
+        {
+          "name":"Trần Thanh Tâm",
+          "score": {
+            "kt15": 5,
+            "kttk": 8,
+            "ktgk": 6,
+            "ktck": 8
+          }
+        },
+        {
+          "name":"Trần Thanh Tâm",
+          "score": {
+            "kt15": 5,
+            "kttk": 8,
+            "ktgk": 6,
+            "ktck": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Tăng Khánh Quang",
+      "class": "C12",
+      "subject": "Ngữ Văn",
+      "email": "quang@gmail.com",
+      "password": "123456789",
+      "score": [
+        {
+          "name":"Trần Thanh Tâm",
+          "score": {
+            "kt15": 5,
+            "kttk": 8,
+            "ktgk": 6,
+            "ktck": 8
+          }
+        },
+        {
+          "name":"Trần Thanh Tâm",
+          "score": {
+            "kt15": 5,
+            "kttk": 8,
+            "ktgk": 6,
+            "ktck": 8
+          }
+        },
+        {
+          "name":"Trần Thanh Tâm",
+          "score": {
+            "kt15": 5,
+            "kttk": 8,
+            "ktgk": 6,
+            "ktck": 8
+          }
+        },
+        {
+          "name":"Trần Thanh Tâm",
+          "score": {
+            "kt15": 5,
+            "kttk": 8,
+            "ktgk": 6,
+            "ktck": 8
+          }
+        },
+        {
+          "name":"Trần Thanh Tâm",
+          "score": {
+            "kt15": 5,
+            "kttk": 8,
+            "ktgk": 6,
+            "ktck": 8
+          }
+        },
+        {
+          "name":"Trần Thanh Tâm",
+          "score": {
+            "kt15": 5,
+            "kttk": 8,
+            "ktgk": 6,
+            "ktck": 8
+          }
+        },
+        {
+          "name":"Trần Thanh Tâm",
+          "score": {
+            "kt15": 5,
+            "kttk": 8,
+            "ktgk": 6,
+            "ktck": 8
+          }
+        },
+        {
+          "name":"Trần Thanh Tâm",
+          "score": {
+            "kt15": 5,
+            "kttk": 8,
+            "ktgk": 6,
+            "ktck": 8
+          }
+        }
+      ]
+    }
+  ]
+}
