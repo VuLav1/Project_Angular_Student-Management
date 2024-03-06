@@ -13,7 +13,6 @@ export class HomeComponent implements OnInit {
     this.authService.getCurrentTeacher().subscribe((teacherInfo) => {
       this.userInfo = teacherInfo;
       console.log(this.userInfo);
-      
     });
   }
   isAuthenticated() {

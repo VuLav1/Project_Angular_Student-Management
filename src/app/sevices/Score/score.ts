@@ -7,21 +7,12 @@ export interface RegisterForm {
     password: string
     confirm_password: string
 }
-export interface User {
+export interface Score {
     id: number;
     name: string;
     class: string;
     email: string;
     password: string;
     subject: string;
-    score: Score[];
-
-}
-interface Score{
-    id: number;
-    name: string;
-    kttk: number;
-    kt15: number;
-    ktgk: number;
-    ktck: number;
+    score: any;
 }

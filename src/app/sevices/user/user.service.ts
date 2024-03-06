@@ -2,15 +2,22 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { LoginForm, User } from '../auth/auth';
 import { Observable } from 'rxjs';
+import { AuthService } from '../auth/auth.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class UserService {
-  constructor(private http: HttpClient) {
+  constructor(private http: HttpClient, private authService: AuthService) {
     this.getAllUserList().subscribe(res => {
       this.userList = res
     })
+  }
+  ngOnInit(): void {
+    this.authService.getCurrentTeacher().subscribe((teacherInfo) => {
+      this.userInfo = teacherInfo;
+      console.log(this.userInfo);
+    });
   }
   protected userList: User[] = []
   AutoId() {
@@ -22,24 +29,13 @@ export class UserService {
     })
     return max + 1
   }
-
+  
   private baseURL = `http://localhost:3000/User`
   getAllUserList(): Observable<User[]> {
     return this.http.get<User[]>(`${this.baseURL}`)
   }
   private currentTeacher: any = null;
   private userInfo: any
-  getUserInfo(form: LoginForm) {
-    for (let user of this.userList) {
-      if (form.email == user.email && form.password == user.password) {
-        this.userInfo= [
-          user.name,
-        ];
-        this.currentTeacher = this.userInfo;
-        return;
-      }
-    }
-  }
   getUsertId(id: number): User | undefined {
     return this.userList.find(item => item.id == id)
   }

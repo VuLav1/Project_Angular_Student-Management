@@ -19,7 +19,7 @@ export class StudentListComponent {
     address: new FormControl<string>(''),
     class: new FormControl<string>(''),
   });
-
+  
   constructor(private prod: StudentService) {
     // prod.getAllStudentList().subscribe((data) => {
     //     this.studentList = data

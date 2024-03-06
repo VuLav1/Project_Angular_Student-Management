@@ -1,0 +1,152 @@
+{
+    "User": [
+        {
+          "id": "1",
+          "name": "Phan Anh Tài",
+          "class": "C12",
+          "subject": "Toán",
+          "email": "anhtai253@gmail.com",
+          "password": "123456789",
+          "score": [
+            {
+              "name": "Trần Thanh Tâm",
+              "id": "1",
+              "kt15": 5,
+              "kttk": 8,
+              "ktgk": 6,
+              "ktck": 8
+            },
+            {
+              "name": "Trần Thanh Tâm",
+              "id": "2",
+              "kt15": 5,
+              "kttk": 8,
+              "ktgk": 6,
+              "ktck": 8
+            },
+            {
+              "name": "Trần Thanh Tâm",
+              "id": "3",
+              "kt15": 5,
+              "kttk": 8,
+              "ktgk": 6,
+              "ktck": 8
+            },
+            {
+              "name": "Trần Thanh Tâm",
+              "id": "4",
+              "kt15": 5,
+              "kttk": 8,
+              "ktgk": 6,
+              "ktck": 8
+            },
+            {
+              "name": "Trần Thanh Tâm",
+              "id": "5",
+              "kt15": 5,
+              "kttk": 8,
+              "ktgk": 6,
+              "ktck": 8
+            },
+            {
+              "name": "Trần Thanh Tâm",
+              "id": "6",
+              "kt15": 5,
+              "kttk": 8,
+              "ktgk": 6,
+              "ktck": 8
+            },
+            {
+              "name": "Trần Thanh Tâm",
+              "id": "7",
+              "kt15": 5,
+              "kttk": 8,
+              "ktgk": 6,
+              "ktck": 8
+            },
+            {
+              "name": "Trần Thanh Tâm",
+              "id": "8",
+              "kt15": 5,
+              "kttk": 8,
+              "ktgk": 6,
+              "ktck": 8
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Tăng Khánh Quang",
+          "class": "C12",
+          "subject": "Ngữ Văn",
+          "email": "quang@gmail.com",
+          "password": "123456789",
+          "score": [
+            {
+              "name": "Trần Thanh Tâm",
+              "id": "1",
+              "kt15": 5,
+              "kttk": 8,
+              "ktgk": 6,
+              "ktck": 8
+            },
+            {
+              "name": "Trần Thanh Tâm",
+              "id": "2",
+              "kt15": 5,
+              "kttk": 8,
+              "ktgk": 6,
+              "ktck": 8
+            },
+            {
+              "name": "Trần Thanh Tâm",
+              "id": "3",
+              "kt15": 5,
+              "kttk": 8,
+              "ktgk": 6,
+              "ktck": 8
+            },
+            {
+              "name": "Trần Thanh Tâm",
+              "id": "4",
+              "kt15": 5,
+              "kttk": 8,
+              "ktgk": 6,
+              "ktck": 8
+            },
+            {
+              "name": "Trần Thanh Tâm",
+              "id": "5",
+              "kt15": 5,
+              "kttk": 8,
+              "ktgk": 6,
+              "ktck": 8
+            },
+            {
+              "name": "Trần Thanh Tâm",
+              "id": "6",
+              "kt15": 5,
+              "kttk": 8,
+              "ktgk": 6,
+              "ktck": 8
+            },
+            {
+              "name": "Trần Thanh Tâm",
+              "id": "7",
+              "kt15": 5,
+              "kttk": 8,
+              "ktgk": 6,
+              "ktck": 8
+            },
+            {
+              "name": "Trần Thanh Tâm",
+              "id": "8",
+              "kt15": 5,
+              "kttk": 8,
+              "ktgk": 6,
+              "ktck": 8
+            }
+          ]
+        }
+      ]
+}

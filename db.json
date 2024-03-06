@@ -1,25 +1,31 @@
-
 {
   "student": [
     {
-      "studentID": 1,
-      "name": "Trần Thanh Tâm",
-      "birthday": "October 15, 2023",
+      "id": "1",
+      "name": "Mai Anh Kha",
+      "birthday": "2006-10-05",
       "sdt": "0564789900",
-      "gender": "Nữ",
+      "gender": "Nam",
       "address": "99 Nguyễn Xí, Quận Bình Thạnh",
-      "class": "C12",
-      "id": "2"
+      "class": "C12"
     },
     {
-      "studentID": 1,
+      "id": "2",
+      "name": "Trần Thanh Tâm",
+      "birthday": "2006-07-15",
+      "sdt": "0564789900",
+      "gender": "Nữ",
+      "address": "78 Ung Văn Khiêm, Quận Bình Thạnh",
+      "class": "C12"
+    },
+    {
+      "id": "3",
       "name": "Lê Anh Quang",
-      "birthday": "October 15, 2023",
+      "birthday": "2006-05-16",
       "sdt": "0376481077",
       "gender": "Nam",
       "address": "37/120 Cộng Hoà, Quận Tân Bình",
-      "class": "C12",
-      "id": "3"
+      "class": "C12"
     },
     {
       "studentID": 1,
@@ -32,54 +38,148 @@
       "id": "4"
     },
     {
-      "studentID": 5,
+      "id": "5",
       "name": "Nguyễn Trọng Nhân",
-      "birthday": "October 15, 2015",
+      "birthday": "2000-10-23",
+      "sdt": "0285192906",
       "gender": "Nam",
-      "sdt": 35.95,
-      "address": "",
-      "class": "C12",
-      "id": "5"
+      "address": "200 Bình Long, Quận Tân Phú",
+      "class": "C12"
     },
     {
-      "studentID": 6,
-      "name": "Nguyễn Trọng Nhân",
-      "birthday": "October 15, 2015",
+      "id": "6",
+      "name": "Nguyễn Thị Bảo Ngọc",
+      "birthday": "2006-02-02",
+      "sdt": "0889356775",
       "gender": "Nam",
-      "sdt": 35.95,
-      "address": "",
-      "class": "C12",
-      "id": "6"
+      "address": "12 Đ. Nguyễn Thị Minh Khai, Quận 1",
+      "class": "C12"
     },
     {
-      "studentID": 7,
-      "name": "Nguyễn Trọng Nhân",
-      "birthday": "October 15, 2015",
+      "id": "7",
+      "name": "Phan Minh Thắng",
+      "birthday": "2006-12-02",
+      "sdt": "0384128950",
       "gender": "Nam",
-      "sdt": 35.95,
-      "address": "",
-      "class": "C12",
-      "id": "7"
+      "address": "Hẻm 30 Trường Sa, Quận Bình Thạnh",
+      "class": "C12"
     },
     {
-      "studentID": 8,
-      "name": "Nguyễn Trọng Nhân",
-      "birthday": "October 15, 2015",
-      "gender": "Nam",
-      "sdt": 35.95,
-      "address": "",
-      "class": "C12",
-      "id": "8"
+      "id": "8",
+      "name": "Nguyễn Thị Mỹ Duyên",
+      "birthday": "2006-05-12",
+      "sdt": "0915485218",
+      "gender": "Nữ",
+      "address": "179 Phan Đình Phùng, Quận Phú Nhuận",
+      "class": "C12"
     },
     {
-      "studentID": 9,
-      "name": "Nguyễn Trọng Nhân",
-      "birthday": "October 15, 2015",
+      "id": "9",
+      "name": "Nguyễn Hoàng Kha",
+      "birthday": "2006-05-01",
+      "sdt": "0931593826",
       "gender": "Nam",
-      "sdt": 35.95,
-      "address": "",
-      "class": "C12",
-      "id": "9"
+      "address": "201/55A Hoàng Việt, Quận Tân Bình",
+      "class": "C12"
+    },
+    {
+      "id": "10",
+      "name": "Trần Quốc Khánh",
+      "birthday": "2006-03-27",
+      "sdt": "0767554062",
+      "gender": "Nam",
+      "address": "1280 Hiệp Nhất, Quận Tân Bình",
+      "class": "C12"
+    },
+    {
+      "id": "11",
+      "name": "Lục Hồng Phúc",
+      "birthday": "2006-02-07",
+      "sdt": "0708131384",
+      "gender": "Nam",
+      "address": "216 Nguyễn Thái Bình, Quận Tân Bình",
+      "class": "C12"
+    },
+    {
+      "id": "12",
+      "name": "Phạm Thị Phương Uyên",
+      "birthday": "2006-09-20",
+      "sdt": "0816559400",
+      "gender": "Nữ",
+      "address": "186 Nguyễn Thị Tú, Quận Bình Tân",
+      "class": "C12"
+    },
+    {
+      "id": "13",
+      "name": "Từ Ngọc Bảo",
+      "birthday": "2006-02-24",
+      "sdt": "02888833007",
+      "gender": "Nam",
+      "address": "  97/2 Đ. Phan Văn Trị, Quận Bình Thạnh",
+      "class": "C12"
+    },
+    {
+      "id": "14",
+      "name": "Trịnh Thanh Nhân",
+      "birthday": "2006-01-03",
+      "sdt": "0946614410",
+      "gender": "Nam",
+      "address": "302/1 Hai Bà Trưng, Quận 1",
+      "class": "C12"
+    },
+    {
+      "id": "15",
+      "name": "Ngô Hoài Thương",
+      "birthday": "2006-07-22",
+      "sdt": "0903499179",
+      "gender": "Nữ",
+      "address": "64/3 Lê Trực, Quận Bình Thạnh",
+      "class": "C12"
+    },
+    {
+      "id": "16",
+      "name": "Lê Minh Huy",
+      "birthday": "2006-06-18",
+      "sdt": "0842050834",
+      "gender": "Nam",
+      "address": "138/25A Đ. Vạn Kiếp, Quận Bình Thạnh",
+      "class": "C12"
+    },
+    {
+      "id": "17",
+      "name": "Hồ Duy Khang",
+      "birthday": "2006-08-16",
+      "sdt": "0933187527",
+      "gender": "Nam",
+      "address": "34/28 Đ. Lê Văn Duyệt, Quận Bình Thạnh",
+      "class": "C12"
+    },
+    {
+      "id": "18",
+      "name": "Nguyễn Thành Việt",
+      "birthday": "2006-05-10",
+      "sdt": "0932236479",
+      "gender": "Nam",
+      "address": "19/13 Thạch Thị Thanh, Quận 1",
+      "class": "C12"
+    },
+    {
+      "id": "19",
+      "name": "Phạm Tuyết Nga",
+      "birthday": "2006-12-02",
+      "sdt": "02499997544",
+      "gender": "Nữ",
+      "address": "21/4F Đ. Cây Trâm, Quận Gò Vấp",
+      "class": "C12"
+    },
+    {
+      "id": "20",
+      "name": "Võ Thanh An",
+      "birthday": "2006-09-20",
+      "sdt": "0355660461",
+      "gender": "Nam",
+      "address": "103 Đ. Đặng Thuỳ Trâm, Quận Bình Thạnh",
+      "class": "C12"
     }
   ],
   "User": [
@@ -92,76 +192,68 @@
       "password": "123456789",
       "score": [
         {
-          "name":"Trần Thanh Tâm",
-          "score": {
-            "kt15": 5,
-            "kttk": 8,
-            "ktgk": 6,
-            "ktck": 8
-          }
+          "id": "1",
+          "kttk": 3,
+          "kt15": 3,
+          "ktgk": 3,
+          "ktck": 5,
+          "name": "Trần Thanh Tâm"
         },
         {
-          "name":"Trần Thanh Tâm",
-          "score": {
-            "kt15": 5,
-            "kttk": 8,
-            "ktgk": 6,
-            "ktck": 8
-          }
+          "name": "Trần Thanh Tâm",
+          "id": "2",
+          "kt15": 5,
+          "kttk": 8,
+          "ktgk": 6,
+          "ktck": 8
         },
         {
-          "name":"Trần Thanh Tâm",
-          "score": {
-            "kt15": 5,
-            "kttk": 8,
-            "ktgk": 6,
-            "ktck": 8
-          }
+          "name": "Trần Thanh Tâm",
+          "id": "3",
+          "kt15": 5,
+          "kttk": 8,
+          "ktgk": 6,
+          "ktck": 8
         },
         {
-          "name":"Trần Thanh Tâm",
-          "score": {
-            "kt15": 5,
-            "kttk": 8,
-            "ktgk": 6,
-            "ktck": 8
-          }
+          "name": "Trần Thanh Tâm",
+          "id": "4",
+          "kt15": 5,
+          "kttk": 8,
+          "ktgk": 6,
+          "ktck": 8
         },
         {
-          "name":"Trần Thanh Tâm",
-          "score": {
-            "kt15": 5,
-            "kttk": 8,
-            "ktgk": 6,
-            "ktck": 8
-          }
+          "name": "Trần Thanh Tâm",
+          "id": "5",
+          "kt15": 5,
+          "kttk": 8,
+          "ktgk": 6,
+          "ktck": 8
         },
         {
-          "name":"Trần Thanh Tâm",
-          "score": {
-            "kt15": 5,
-            "kttk": 8,
-            "ktgk": 6,
-            "ktck": 8
-          }
+          "name": "Trần Thanh Tâm",
+          "id": "6",
+          "kt15": 5,
+          "kttk": 8,
+          "ktgk": 6,
+          "ktck": 8
         },
         {
-          "name":"Trần Thanh Tâm",
-          "score": {
-            "kt15": 5,
-            "kttk": 8,
-            "ktgk": 6,
-            "ktck": 8
-          }
+          "name": "Trần Thanh Tâm",
+          "id": "7",
+          "kt15": 5,
+          "kttk": 8,
+          "ktgk": 6,
+          "ktck": 8
         },
         {
-          "name":"Trần Thanh Tâm",
-          "score": {
-            "kt15": 5,
-            "kttk": 8,
-            "ktgk": 6,
-            "ktck": 8
-          }
+          "name": "Trần Thanh Tâm",
+          "id": "8",
+          "kt15": 5,
+          "kttk": 8,
+          "ktgk": 6,
+          "ktck": 8
         }
       ]
     },
@@ -174,76 +266,68 @@
       "password": "123456789",
       "score": [
         {
-          "name":"Trần Thanh Tâm",
-          "score": {
-            "kt15": 5,
-            "kttk": 8,
-            "ktgk": 6,
-            "ktck": 8
-          }
+          "name": "Trần Thanh Tâm",
+          "id": "1",
+          "kt15": 5,
+          "kttk": 8,
+          "ktgk": 6,
+          "ktck": 8
         },
         {
-          "name":"Trần Thanh Tâm",
-          "score": {
-            "kt15": 5,
-            "kttk": 8,
-            "ktgk": 6,
-            "ktck": 8
-          }
+          "name": "Trần Thanh Tâm",
+          "id": "2",
+          "kt15": 5,
+          "kttk": 8,
+          "ktgk": 6,
+          "ktck": 8
         },
         {
-          "name":"Trần Thanh Tâm",
-          "score": {
-            "kt15": 5,
-            "kttk": 8,
-            "ktgk": 6,
-            "ktck": 8
-          }
+          "name": "Trần Thanh Tâm",
+          "id": "3",
+          "kt15": 5,
+          "kttk": 8,
+          "ktgk": 6,
+          "ktck": 8
         },
         {
-          "name":"Trần Thanh Tâm",
-          "score": {
-            "kt15": 5,
-            "kttk": 8,
-            "ktgk": 6,
-            "ktck": 8
-          }
+          "name": "Trần Thanh Tâm",
+          "id": "4",
+          "kt15": 5,
+          "kttk": 8,
+          "ktgk": 6,
+          "ktck": 8
         },
         {
-          "name":"Trần Thanh Tâm",
-          "score": {
-            "kt15": 5,
-            "kttk": 8,
-            "ktgk": 6,
-            "ktck": 8
-          }
+          "name": "Trần Thanh Tâm",
+          "id": "5",
+          "kt15": 5,
+          "kttk": 8,
+          "ktgk": 6,
+          "ktck": 8
         },
         {
-          "name":"Trần Thanh Tâm",
-          "score": {
-            "kt15": 5,
-            "kttk": 8,
-            "ktgk": 6,
-            "ktck": 8
-          }
+          "name": "Trần Thanh Tâm",
+          "id": "6",
+          "kt15": 5,
+          "kttk": 8,
+          "ktgk": 6,
+          "ktck": 8
         },
         {
-          "name":"Trần Thanh Tâm",
-          "score": {
-            "kt15": 5,
-            "kttk": 8,
-            "ktgk": 6,
-            "ktck": 8
-          }
+          "name": "Trần Thanh Tâm",
+          "id": "7",
+          "kt15": 5,
+          "kttk": 8,
+          "ktgk": 6,
+          "ktck": 8
         },
         {
-          "name":"Trần Thanh Tâm",
-          "score": {
-            "kt15": 5,
-            "kttk": 8,
-            "ktgk": 6,
-            "ktck": 8
-          }
+          "name": "Trần Thanh Tâm",
+          "id": "8",
+          "kt15": 5,
+          "kttk": 8,
+          "ktgk": 6,
+          "ktck": 8
         }
       ]
     }

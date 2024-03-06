@@ -1,10 +1,7 @@
-<!-- <div class="col-md-6 text-right"> -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalId"
-    data-bs-whatever="@mdo">Add
-    new</button>
-<!-- </div> -->
-<div>
-    <h2></h2>
+<div *ngIf="userInfo">
+    <h2>{{ userInfo.name }}</h2>
+    <p>Class: {{ userInfo.class }}</p>
+    <p>Subject: {{ userInfo.subject }}</p>
 </div>
 <table class="table table-bordered">
     <thead>
@@ -19,20 +16,17 @@
         </tr>
     </thead>
     <tbody>
-        <tr >
-            <!-- <td>{{item.productName}}</td> -->
-            <!-- <td>{{item.id}}</td>
-            <td>{{item.name}}</td>
-            <td>{{item.birthday}}</td>
-            <td>{{item.gender}}</td>
-            <td>{{item.sdt}}</td>
-            <td>{{item.address}}</td>
-            <td>{{item.class}}</td> -->
-            <!-- <td>{{item.starRating}}</td> -->
+        <tr *ngFor="let score of userInfo.score; let i=index">
+            <td>{{score.name}}</td>
+            <td>{{score.kttk}}</td>
+            <td>{{score.kt15}}</td>
+            <td>{{score.ktgk}}</td>
+            <td>{{score.ktck}}</td>
+            <td>{{((score.kttk + score.kt15) + score.ktgk*2+score.ktck*3)/7 | number:'1.2-2'}}</td>
             <td>
                 <button class="btn">
-                    <span class="badge rounded-pill text-bg-primary" data-toggle="modal" data-target="#ModalId"
-                        >Edit</span>
+                    <span class="badge rounded-pill text-bg-primary" data-toggle="modal" (click)="IsAdd=0;IsUpdate=2"
+                        data-target="#ModalId" (click)="editScore(i)">Edit</span>
                 </button>
             </td>
         </tr>
@@ -50,53 +44,36 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form >
+                <form [formGroup]="formStudent">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="">Name</label>
-                                <input type="text" name="" id=""
+                                <label for="">KTTK</label>
+                                <input type="number" [formControl]="formStudent.controls.kttk" name="" id=""
                                     class="form-control" placeholder="" ariadescribedby="helpId">
                                 <!--<small id="helpId" class="text-muted">Help text</small>-->
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="">Gender</label>
-                                <input type="text" name="" id=""
+                                <label for="">KT15</label>
+                                <input type="number" [formControl]="formStudent.controls.kt15" name="" id=""
                                     class="form-control" placeholder="" ariadescribedby="helpId">
                                 <!--<small id="helpId" class="text-muted">Help text</small>-->
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="">Birthday</label>
-                                <input type="date" name="" id=""
+                                <label for="">KTGC</label>
+                                <input type="number" [formControl]="formStudent.controls.ktgk" name="" id=""
                                     class="form-control" placeholder="" ariadescribedby="helpId">
                                 <!--<small id="helpId" class="text-muted">Help text</small>-->
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="">Phone number</label>
-                                <input type="text"  name="" id=""
-                                    class="form-control" placeholder="" ariadescribedby="helpId">
-                                <!--<small id="helpId" class="text-muted">Help text</small>-->
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="">Class</label>
-                                <input type="text" name="" id=""
-                                    class="form-control" placeholder="" ariadescribedby="helpId">
-                                <!--<small id="helpId" class="text-muted">Help text</small>-->
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label for="">Address</label>
-                                <input type="text"  name="" id=""
+                                <label for="">KTCK</label>
+                                <input type="number" [formControl]="formStudent.controls.ktck" name="" id=""
                                     class="form-control" placeholder="" ariadescribedby="helpId">
                                 <!--<small id="helpId" class="text-muted">Help text</small>-->
                             </div>
@@ -105,11 +82,11 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <!-- <button type="button" class="btn btn-primary" *ngIf="IsAdd==1" (click)="Add()">Save</button>
-                <button type="button" class="btn btn-primary" *ngIf="IsUpdate==2" (click)="Update()">Save Update
+                <!-- <button type="button" class="btn btn-primary" *ngIf="IsAdd==1" (click)="Add()">Save</button> -->
+                <button type="button" class="btn btn-primary" (click)="Update()">Save Update
                 </button>
                 <button type="button" class="btn btn-secondary" (click)="IsAdd=1;IsUpdate=0"
-                    data-dismiss="modal">Close</button> -->
+                    data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>

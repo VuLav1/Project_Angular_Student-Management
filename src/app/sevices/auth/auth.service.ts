@@ -22,6 +22,7 @@ export class AuthService {
     })
     this.route = router
   }
+
   getAllUserList(): Observable<User[]> {
     return this.http.get<User[]>(`${this.baseURL}`)
   }
@@ -34,6 +35,7 @@ export class AuthService {
         this.isAuthenticated = true;
         this.router.navigate(['']);
         this.currentTeacher = [
+          user.id,
           user.name,
           user.email,
           user.class,
@@ -52,7 +54,7 @@ export class AuthService {
   private currentTeacherSubject = new BehaviorSubject<any>(null);
   currentTeacher$ = this.currentTeacherSubject.asObservable();
 
-  getisAuthenticated (): boolean {
+  getisAuthenticated(): boolean {
     return this.isAuthenticatedSubject.value;
   }
 
@@ -80,5 +82,5 @@ export class AuthService {
       this.userList = res
     })
   }
-  
+
 }
